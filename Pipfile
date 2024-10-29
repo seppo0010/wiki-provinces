@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+wikipedia = "*"
+unidecode = "*"
+jupyter = "*"
+fiona = "==1.9.6"
+geopandas = "==0.13.2"
+matplotlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+python_full_version = "3.8.18"
